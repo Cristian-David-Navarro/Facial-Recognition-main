@@ -30,13 +30,15 @@ Está desarrollado con enfoque modular y es ideal para aplicaciones de seguridad
 ```bash
 git clone https://github.com/Cristian-David-Navarro/Facial-Recognition-main.git
 cd Facial-Recognition-main
-### 2. Crea y activa un entorno virtual
-python -m venv fr_venv
-source fr_venv/bin/activate        # En Windows: fr_venv\Scripts\activate
+```
 
-### 3. Instala las dependencias
-pip install face-recognition
-pip install opencv-contrib-python
+### 3. Crea y activa un entorno virtual
+- python -m venv fr_venv
+- source fr_venv/bin/activate        
 
-### 4. Ejecuta el sistema
+### 4. Instala las dependencias
+- pip install face-recognition
+- pip install opencv-contrib-python
+
+### 5. Ejecuta el sistema
 python main.py
