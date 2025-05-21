@@ -1,10 +1,42 @@
-Activar entorno virtual 
-source fr_venv/bin/activate
+# 🤖 Reconocimiento Facial en Tiempo Real
 
-Desactivar 
-deactivate
+Este proyecto implementa un sistema de **reconocimiento facial en tiempo real** utilizando **Python**, con soporte para detectar e identificar rostros desde una cámara en vivo.  
+Está desarrollado con enfoque modular y es ideal para aplicaciones de seguridad, asistencia o control de acceso.
 
-dependencias del proyecto:
-pip install face-recognition 
+---
+
+## 📌 Características
+
+- 🎯 Detección y reconocimiento de rostros en tiempo real
+- 📸 Captura desde cámara web
+- 🧠 Comparación con rostros previamente registrados
+- 📁 Organización clara de carpetas y módulos
+- 💡 Código limpio y fácil de extender
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- 🐍 Python 3.x
+- 🧪 [face_recognition](https://github.com/ageitgey/face_recognition)
+- 🎥 OpenCV (opencv-contrib-python)
+
+---
+
+## ⚙️ Instalación y uso
+
+### 1. Clona el repositorio
+
+```bash
+git clone https://github.com/Cristian-David-Navarro/Facial-Recognition-main.git
+cd Facial-Recognition-main
+### 2. Crea y activa un entorno virtual
+python -m venv fr_venv
+source fr_venv/bin/activate        # En Windows: fr_venv\Scripts\activate
+
+### 3. Instala las dependencias
+pip install face-recognition
 pip install opencv-contrib-python
 
+### 4. Ejecuta el sistema
+python main.py
